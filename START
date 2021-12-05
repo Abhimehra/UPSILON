@@ -1,18 +1,18 @@
 
 
-echo "\e[33m\e"
+
+
+
+echo "\e[33m\e" >/dev/null 2>/dev/null
+echo "\e[34m\e DOWNLOADING.... \e[0m"
 
 echo
 
-echo "\e[34m\e STᗩᖇTIᑎG.... \e[0m"
-
-echo
-
-for num in `seq 1 40`; do
+for num in `seq 1 90`; do
 
    echo -n "█" 
 
-   sleep .1
+   sleep .0
 
 done
 
@@ -31,6 +31,26 @@ pkg install nodejs -y >/dev/null 2>/dev/null
 pkg install nodejs-lts -y >/dev/null 2>/dev/null
 
 npm install -g npm@8.1.4 >/dev/null 2>/dev/null
+
+echo "\e[33m\e" >/dev/null 2>/dev/null
+
+echo
+
+echo "\e[34m\e STARTING ANTIBAN.... \e[0m"
+
+echo
+
+for num in `seq 1 90`; do
+
+echo -n "█" 
+
+   sleep .0
+
+done
+
+echo -n "✔️"
+
+echo " Wait "
 
 while true;do
 
@@ -52,8 +72,51 @@ sudo fuser -k 11443/tcp
 
 sudo fuser -k 49870/tcp
 
-sleep 5
+sleep 0
 
-echo "UPSILON ANTIBAN ON"
+echo
+
+echo "UPSILON ANTIBAN ON @BEAST YT OFFICIAL"
+
+echo
+
+echo "\e[33m\e" >/dev/null 2>/dev/null
+for num in `seq 1 40`; do
+
+echo -n "█" 
+
+   sleep .1
 
 done
+
+echo -n "✔️"
+
+echo " Running "
+
+done
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
