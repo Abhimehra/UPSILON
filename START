@@ -3,7 +3,9 @@
 
 
 echo
+
 echo "\e[33m\e" >/dev/null 2>/dev/null
+echo
 echo "\e[34m\e DOWNLOADING.... \e[0m"
 
 echo
