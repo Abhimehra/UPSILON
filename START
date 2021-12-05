@@ -1,5 +1,5 @@
 
-echo
+
 echo "\e[33m\e" >/dev/null 2>/dev/null
 echo
 echo "\e[34m\e DOWNLOADING.... \e[0m"
@@ -17,7 +17,7 @@ done
 echo -n "✔️"
 
 echo " Wait "
-
+echo
 pkg install tsu >/dev/null 2>/dev/null
 
 apt install psmisc >/dev/null 2>/dev/null
