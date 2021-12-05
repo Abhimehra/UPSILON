@@ -1,20 +1,59 @@
 
+
+echo "\e[33m\e"
+
+echo
+
+echo "\e[34m\e STᗩᖇTIᑎG.... \e[0m"
+
+echo
+
+for num in `seq 1 40`; do
+
+   echo -n "█" 
+
+   sleep .1
+
+done
+
+echo -n "✔️"
+
+echo " Wait "
+
 pkg install tsu >/dev/null 2>/dev/null
+
 apt install psmisc >/dev/null 2>/dev/null
-apt update && apt upgrade 
+
+apt update && apt upgrade >/dev/null 2>/dev/null
+
 pkg install nodejs -y >/dev/null 2>/dev/null
+
 pkg install nodejs-lts -y >/dev/null 2>/dev/null
+
 npm install -g npm@8.1.4 >/dev/null 2>/dev/null
+
 while true;do
-npx kill-port 443 80 8080 17500 15692 11443 2000 20001 1801 13031 49870 >/dev/null 2>/dev/null
+
+npx kill-port 443 80 8080 17500 15692 11443 2000 20001 1801 13031 49870 8085 8086 8088 9030 9031 8011 17500 8013 8700 27175 >/dev/null 2>/dev/null
+
 sudo fuser -k 8080/tcp
+
 sudo fuser -k 443/tcp
+
 sudo fuser -k 80/tcp
+
 sudo fuser -k 8013/tcp
+
 sudo fuser -k 8086/tcp
+
 sudo fuser -k 17500/tcp
+
 sudo fuser -k 11443/tcp
+
 sudo fuser -k 49870/tcp
+
 sleep 5
-echo "DUMP WITH UPSILON ANTIBAN"
+
+echo "UPSILON ANTIBAN ON"
+
 done
