@@ -266,6 +266,6 @@ R /data/data/com.pubg.imobile/app_crashrecord
 touch /data/data/com.pubg.imobile/app_crashrecord
 S 1
 R /data/media/0/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Config/Android/Updater.ini
-echo " [⚡𝙳𝚎𝚒𝚣𝚣𝚎𝚛 𝙲𝚑𝚎𝚊𝚝 ] "
+
 
 rm -rf /data/data/run.sh
