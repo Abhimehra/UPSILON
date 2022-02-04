@@ -1,1 +1,0 @@
-"Don't try to over smart guys"
